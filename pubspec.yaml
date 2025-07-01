@@ -1,17 +1,17 @@
-name: lpass_micro_commons_dependencies
+name: lpass_web_dependencies
 description: A new Flutter package project.
 version: 0.0.1
 publish_to: none
 
 environment:
-  sdk: '>=2.18.5 <3.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
-  flutter_modular: ^5.0.3
+  intl: ^0.19.0
 
 dev_dependencies:
   flutter_test:
@@ -19,3 +19,4 @@ dev_dependencies:
   flutter_lints: ^2.0.0
   
 flutter:
+  uses-material-design: true
